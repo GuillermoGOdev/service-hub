@@ -1,0 +1,3016 @@
+{
+  "users": [
+    {
+      "id": "cliente",
+      "name": "Ana Mendoza",
+      "email": "cliente@servicehub.test",
+      "providerEnabled": false,
+      "passwordHash": "servicehub-demo-seed-only:ba3dee40469e88673c1a1255e9c5b5ad2071aad47e5b46d778afba60d216422990bc201da5a4733ba17e1fb9821873ec925fb9dbc9544b71cb592387fd4f1887",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "pro-1",
+      "name": "Lucía Ramos",
+      "email": "profesional@servicehub.test",
+      "providerEnabled": true,
+      "passwordHash": "servicehub-demo-seed-only:ba3dee40469e88673c1a1255e9c5b5ad2071aad47e5b46d778afba60d216422990bc201da5a4733ba17e1fb9821873ec925fb9dbc9544b71cb592387fd4f1887",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "pro-2",
+      "name": "Diego Torres",
+      "email": "pro2@servicehub.test",
+      "providerEnabled": true,
+      "passwordHash": "servicehub-demo-seed-only:ba3dee40469e88673c1a1255e9c5b5ad2071aad47e5b46d778afba60d216422990bc201da5a4733ba17e1fb9821873ec925fb9dbc9544b71cb592387fd4f1887",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "pro-3",
+      "name": "Valeria Soto",
+      "email": "pro3@servicehub.test",
+      "providerEnabled": true,
+      "passwordHash": "servicehub-demo-seed-only:ba3dee40469e88673c1a1255e9c5b5ad2071aad47e5b46d778afba60d216422990bc201da5a4733ba17e1fb9821873ec925fb9dbc9544b71cb592387fd4f1887",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "pro-4",
+      "name": "Mateo Ríos",
+      "email": "pro4@servicehub.test",
+      "providerEnabled": true,
+      "passwordHash": "servicehub-demo-seed-only:ba3dee40469e88673c1a1255e9c5b5ad2071aad47e5b46d778afba60d216422990bc201da5a4733ba17e1fb9821873ec925fb9dbc9544b71cb592387fd4f1887",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "pro-5",
+      "name": "Camila Vega",
+      "email": "pro5@servicehub.test",
+      "providerEnabled": true,
+      "passwordHash": "servicehub-demo-seed-only:ba3dee40469e88673c1a1255e9c5b5ad2071aad47e5b46d778afba60d216422990bc201da5a4733ba17e1fb9821873ec925fb9dbc9544b71cb592387fd4f1887",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "pro-6",
+      "name": "Andrés Silva",
+      "email": "pro6@servicehub.test",
+      "providerEnabled": true,
+      "passwordHash": "servicehub-demo-seed-only:ba3dee40469e88673c1a1255e9c5b5ad2071aad47e5b46d778afba60d216422990bc201da5a4733ba17e1fb9821873ec925fb9dbc9544b71cb592387fd4f1887",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "name": "Guillermo",
+      "email": "correo@ejemplo.com",
+      "passwordHash": "3d8fd52d7c104ec253f44bd88ab3dcc7:b2232332fa4d296fb24c2f6f5375117b424a71ba986d3d8ad1ac8023b57c1d39cd03b844bce400a0d5751d92d730df669131f9f7ae0575947ff8bac5578f6c4e",
+      "providerEnabled": true,
+      "createdAt": "2026-10-12T15:12:15.634Z",
+      "labelsInitialized": true
+    },
+    {
+      "id": "1b5f06be-373b-416c-afad-89f072a46211",
+      "name": "José",
+      "email": "email@ejemplo.com",
+      "passwordHash": "5ce727c819430f839a9ddea504c6dc78:9e543a6b524bc82f5f884af0443e85a1fb6846605e990811186a2f1416ab9c38e65e29bd6dc26ae7a2fa55cc2d367d94382dae89286c1e71ae2fdaef7746b231",
+      "providerEnabled": false,
+      "createdAt": "2026-10-12T16:58:07.902Z",
+      "labelsInitialized": true
+    }
+  ],
+  "providerProfiles": [
+    {
+      "id": "perfil-1",
+      "userId": "pro-1",
+      "name": "Lucía Ramos",
+      "headline": "Soluciones para tu hogar",
+      "region": "Lima",
+      "zones": "Miraflores, San Isidro, Surco",
+      "about": "Me gusta escuchar lo que necesitas y convertirlo en un trabajo cuidado. Coordinemos los detalles para encontrar una solución a tu medida.",
+      "skills": [
+        "Reparaciones del hogar",
+        "Comunicación"
+      ],
+      "languages": [
+        {
+          "name": "Español",
+          "level": "avanzado"
+        }
+      ],
+      "experience": "Trabajo independiente con pequeños negocios y personas.",
+      "education": "",
+      "certifications": "",
+      "availability": "Lunes a viernes, 09:00–18:00",
+      "completed": true
+    },
+    {
+      "id": "perfil-2",
+      "userId": "pro-2",
+      "name": "Diego Torres",
+      "headline": "Tu tecnología, en buenas manos",
+      "region": "Lima",
+      "zones": "Miraflores, San Isidro, Surco",
+      "about": "Me gusta escuchar lo que necesitas y convertirlo en un trabajo cuidado. Coordinemos los detalles para encontrar una solución a tu medida.",
+      "skills": [
+        "Mantenimiento de equipos",
+        "Comunicación"
+      ],
+      "languages": [
+        {
+          "name": "Español",
+          "level": "avanzado"
+        }
+      ],
+      "experience": "Trabajo independiente con pequeños negocios y personas.",
+      "education": "",
+      "certifications": "",
+      "availability": "Lunes a viernes, 09:00–18:00",
+      "completed": true
+    },
+    {
+      "id": "perfil-3",
+      "userId": "pro-3",
+      "name": "Valeria Soto",
+      "headline": "Diseño que cuenta tu historia",
+      "region": "Lima",
+      "zones": "Miraflores, San Isidro, Surco",
+      "about": "Me gusta escuchar lo que necesitas y convertirlo en un trabajo cuidado. Coordinemos los detalles para encontrar una solución a tu medida.",
+      "skills": [
+        "Diseño y edición",
+        "Comunicación"
+      ],
+      "languages": [
+        {
+          "name": "Español",
+          "level": "avanzado"
+        }
+      ],
+      "experience": "Trabajo independiente con pequeños negocios y personas.",
+      "education": "",
+      "certifications": "",
+      "availability": "Lunes a viernes, 09:00–18:00",
+      "completed": true
+    },
+    {
+      "id": "perfil-4",
+      "userId": "pro-4",
+      "name": "Mateo Ríos",
+      "headline": "Desarrollo web a tu medida",
+      "region": "Lima",
+      "zones": "Miraflores, San Isidro, Surco",
+      "about": "Me gusta escuchar lo que necesitas y convertirlo en un trabajo cuidado. Coordinemos los detalles para encontrar una solución a tu medida.",
+      "skills": [
+        "Aplicaciones web",
+        "Comunicación"
+      ],
+      "languages": [
+        {
+          "name": "Español",
+          "level": "avanzado"
+        }
+      ],
+      "experience": "Trabajo independiente con pequeños negocios y personas.",
+      "education": "",
+      "certifications": "",
+      "availability": "Lunes a viernes, 09:00–18:00",
+      "completed": true
+    },
+    {
+      "id": "perfil-5",
+      "userId": "pro-5",
+      "name": "Camila Vega",
+      "headline": "Ideas que conectan con personas",
+      "region": "Lima",
+      "zones": "Miraflores, San Isidro, Surco",
+      "about": "Me gusta escuchar lo que necesitas y convertirlo en un trabajo cuidado. Coordinemos los detalles para encontrar una solución a tu medida.",
+      "skills": [
+        "Contenido para marcas",
+        "Comunicación"
+      ],
+      "languages": [
+        {
+          "name": "Español",
+          "level": "avanzado"
+        }
+      ],
+      "experience": "Trabajo independiente con pequeños negocios y personas.",
+      "education": "",
+      "certifications": "",
+      "availability": "Lunes a viernes, 09:00–18:00",
+      "completed": true
+    },
+    {
+      "id": "perfil-6",
+      "userId": "pro-6",
+      "name": "Andrés Silva",
+      "headline": "Aprender con calma y claridad",
+      "region": "Arequipa",
+      "zones": "Miraflores, San Isidro, Surco",
+      "about": "Me gusta escuchar lo que necesitas y convertirlo en un trabajo cuidado. Coordinemos los detalles para encontrar una solución a tu medida.",
+      "skills": [
+        "Clases particulares",
+        "Comunicación"
+      ],
+      "languages": [
+        {
+          "name": "Español",
+          "level": "avanzado"
+        }
+      ],
+      "experience": "Trabajo independiente con pequeños negocios y personas.",
+      "education": "",
+      "certifications": "",
+      "availability": "Lunes a viernes, 09:00–18:00",
+      "completed": true
+    },
+    {
+      "id": "b5608c5c-be57-4bcf-a150-0368694538b0",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "completed": true,
+      "name": "Guillermo",
+      "headline": "Diseño páginas web de alta conversión",
+      "region": "Piura",
+      "zones": "",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "skills": [
+        "Figma",
+        "chatGPT",
+        "HTML",
+        "CSS",
+        "JS",
+        "Java",
+        "SpringBoot"
+      ],
+      "languages": [
+        {
+          "name": "Español",
+          "level": "avanzado"
+        },
+        {
+          "name": "Inglés",
+          "level": "intermedio"
+        }
+      ],
+      "experience": "",
+      "education": "",
+      "certifications": "",
+      "availability": "",
+      "avatarId": "54fe1c1b-a66c-48d5-b72b-038b58f7a323"
+    }
+  ],
+  "categories": [
+    {
+      "id": "hogar",
+      "name": "Hogar y mantenimiento",
+      "illustration": "/assets/ilustrations/business-trip.svg",
+      "color": "#625bef",
+      "light": "#cccdff"
+    },
+    {
+      "id": "soporte",
+      "name": "Soporte técnico",
+      "illustration": "/assets/ilustrations/business-presentation.svg",
+      "color": "#cb547d",
+      "light": "#f3d9e1"
+    },
+    {
+      "id": "diseno",
+      "name": "Diseño y multimedia",
+      "illustration": "/assets/ilustrations/change-setting.svg",
+      "color": "#00994c",
+      "light": "#d6f4e4"
+    },
+    {
+      "id": "desarrollo",
+      "name": "Desarrollo y tecnología",
+      "illustration": "/assets/ilustrations/conversation-businessman-customer.svg",
+      "color": "#d76200",
+      "light": "#ffe7cd"
+    },
+    {
+      "id": "marketing",
+      "name": "Marketing y redacción",
+      "illustration": "/assets/ilustrations/designer-desk.svg",
+      "color": "#817c00",
+      "light": "#f5f7cc"
+    },
+    {
+      "id": "clases",
+      "name": "Clases y asesorías",
+      "illustration": "/assets/ilustrations/designer-giving-a-keynote.svg",
+      "color": "#168eaa",
+      "light": "#ccf3ff"
+    }
+  ],
+  "serviceTypes": [
+    {
+      "id": "tipo-1",
+      "categoryId": "hogar",
+      "name": "Reparaciones del hogar"
+    },
+    {
+      "id": "tipo-2",
+      "categoryId": "soporte",
+      "name": "Mantenimiento de equipos"
+    },
+    {
+      "id": "tipo-3",
+      "categoryId": "diseno",
+      "name": "Diseño y edición"
+    },
+    {
+      "id": "tipo-4",
+      "categoryId": "desarrollo",
+      "name": "Aplicaciones web"
+    },
+    {
+      "id": "tipo-5",
+      "categoryId": "marketing",
+      "name": "Contenido para marcas"
+    },
+    {
+      "id": "tipo-6",
+      "categoryId": "clases",
+      "name": "Clases particulares"
+    }
+  ],
+  "services": [
+    {
+      "id": "servicio-1",
+      "providerId": "pro-1",
+      "title": "Deja tus muebles y repisas bien instalados",
+      "categoryId": "hogar",
+      "typeId": "tipo-1",
+      "tags": [
+        "reparaciones",
+        "hogar"
+      ],
+      "modality": "presencial",
+      "region": "Lima",
+      "zones": "Miraflores, San Isidro, Surco",
+      "description": "Deja tus muebles y repisas bien instalados. Trabajaremos a partir de tus necesidades, con una propuesta clara y comunicación durante el proceso.\n\nIncluye una conversación inicial para revisar el alcance, la ejecución del trabajo y una entrega con indicaciones para que puedas aprovechar el resultado. Antes de empezar, comparte tus referencias y los detalles importantes.",
+      "cover": "/assets/ilustrations/business-trip.svg",
+      "imageIds": [],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "Solución esencial para una necesidad concreta.",
+          "priceCents": 6000,
+          "unit": "visita",
+          "days": 3,
+          "revisions": 0,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "Un alcance más amplio, definido contigo.",
+          "priceCents": 12000,
+          "unit": "visita",
+          "days": 5,
+          "revisions": 0,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "Acompañamiento completo para tu proyecto.",
+          "priceCents": 18000,
+          "unit": "visita",
+          "days": 7,
+          "revisions": 0,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "extra-1",
+          "name": "Visita adicional",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "requirements": "Describe tu necesidad e incluye las referencias que tengas.",
+      "faq": [
+        {
+          "question": "¿Cómo coordinamos los detalles?",
+          "answer": "Puedes contactarme antes de contratar. Revisaremos el alcance y resolveremos tus dudas."
+        },
+        {
+          "question": "¿Puedo solicitar otro alcance?",
+          "answer": "Sí. Envíame una solicitud y prepararé una oferta personalizada."
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "servicio-2",
+      "providerId": "pro-2",
+      "title": "Pon a punto tu laptop para trabajar mejor",
+      "categoryId": "soporte",
+      "typeId": "tipo-2",
+      "tags": [
+        "laptops",
+        "soporte"
+      ],
+      "modality": "presencial",
+      "region": "Lima",
+      "zones": "Miraflores, San Isidro, Surco",
+      "description": "Pon a punto tu laptop para trabajar mejor. Trabajaremos a partir de tus necesidades, con una propuesta clara y comunicación durante el proceso.\n\nIncluye una conversación inicial para revisar el alcance, la ejecución del trabajo y una entrega con indicaciones para que puedas aprovechar el resultado. Antes de empezar, comparte tus referencias y los detalles importantes.",
+      "cover": "/assets/ilustrations/business-presentation.svg",
+      "imageIds": [],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "Solución esencial para una necesidad concreta.",
+          "priceCents": 8500,
+          "unit": "visita",
+          "days": 3,
+          "revisions": 0,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "Un alcance más amplio, definido contigo.",
+          "priceCents": 17000,
+          "unit": "visita",
+          "days": 5,
+          "revisions": 0,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "Acompañamiento completo para tu proyecto.",
+          "priceCents": 25500,
+          "unit": "visita",
+          "days": 7,
+          "revisions": 0,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "extra-1",
+          "name": "Visita adicional",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "requirements": "Describe tu necesidad e incluye las referencias que tengas.",
+      "faq": [
+        {
+          "question": "¿Cómo coordinamos los detalles?",
+          "answer": "Puedes contactarme antes de contratar. Revisaremos el alcance y resolveremos tus dudas."
+        },
+        {
+          "question": "¿Puedo solicitar otro alcance?",
+          "answer": "Sí. Envíame una solicitud y prepararé una oferta personalizada."
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "servicio-3",
+      "providerId": "pro-3",
+      "title": "Una identidad visual que se sienta tuya",
+      "categoryId": "diseno",
+      "typeId": "tipo-3",
+      "tags": [
+        "diseño",
+        "reels"
+      ],
+      "modality": "digital",
+      "region": "",
+      "zones": "",
+      "description": "Una identidad visual que se sienta tuya. Trabajaremos a partir de tus necesidades, con una propuesta clara y comunicación durante el proceso.\n\nIncluye una conversación inicial para revisar el alcance, la ejecución del trabajo y una entrega con indicaciones para que puedas aprovechar el resultado. Antes de empezar, comparte tus referencias y los detalles importantes.",
+      "cover": "/assets/ilustrations/change-setting.svg",
+      "imageIds": [],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "Solución esencial para una necesidad concreta.",
+          "priceCents": 11000,
+          "unit": "proyecto",
+          "days": 3,
+          "revisions": 1,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "Un alcance más amplio, definido contigo.",
+          "priceCents": 22000,
+          "unit": "proyecto",
+          "days": 5,
+          "revisions": 2,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "Acompañamiento completo para tu proyecto.",
+          "priceCents": 33000,
+          "unit": "proyecto",
+          "days": 7,
+          "revisions": 3,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "extra-1",
+          "name": "Versión adicional",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "requirements": "Describe tu necesidad e incluye las referencias que tengas.",
+      "faq": [
+        {
+          "question": "¿Cómo coordinamos los detalles?",
+          "answer": "Puedes contactarme antes de contratar. Revisaremos el alcance y resolveremos tus dudas."
+        },
+        {
+          "question": "¿Puedo solicitar otro alcance?",
+          "answer": "Sí. Envíame una solicitud y prepararé una oferta personalizada."
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "servicio-4",
+      "providerId": "pro-4",
+      "title": "Tu idea, convertida en una página web",
+      "categoryId": "desarrollo",
+      "typeId": "tipo-4",
+      "tags": [
+        "web",
+        "javascript"
+      ],
+      "modality": "digital",
+      "region": "",
+      "zones": "",
+      "description": "Tu idea, convertida en una página web. Trabajaremos a partir de tus necesidades, con una propuesta clara y comunicación durante el proceso.\n\nIncluye una conversación inicial para revisar el alcance, la ejecución del trabajo y una entrega con indicaciones para que puedas aprovechar el resultado. Antes de empezar, comparte tus referencias y los detalles importantes.",
+      "cover": "/assets/ilustrations/conversation-businessman-customer.svg",
+      "imageIds": [],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "Solución esencial para una necesidad concreta.",
+          "priceCents": 13500,
+          "unit": "proyecto",
+          "days": 3,
+          "revisions": 1,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "Un alcance más amplio, definido contigo.",
+          "priceCents": 27000,
+          "unit": "proyecto",
+          "days": 5,
+          "revisions": 2,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "Acompañamiento completo para tu proyecto.",
+          "priceCents": 40500,
+          "unit": "proyecto",
+          "days": 7,
+          "revisions": 3,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "extra-1",
+          "name": "Versión adicional",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "requirements": "Describe tu necesidad e incluye las referencias que tengas.",
+      "faq": [
+        {
+          "question": "¿Cómo coordinamos los detalles?",
+          "answer": "Puedes contactarme antes de contratar. Revisaremos el alcance y resolveremos tus dudas."
+        },
+        {
+          "question": "¿Puedo solicitar otro alcance?",
+          "answer": "Sí. Envíame una solicitud y prepararé una oferta personalizada."
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "servicio-5",
+      "providerId": "pro-5",
+      "title": "Textos que dan voz a tu marca",
+      "categoryId": "marketing",
+      "typeId": "tipo-5",
+      "tags": [
+        "redacción",
+        "marcas"
+      ],
+      "modality": "digital",
+      "region": "",
+      "zones": "",
+      "description": "Textos que dan voz a tu marca. Trabajaremos a partir de tus necesidades, con una propuesta clara y comunicación durante el proceso.\n\nIncluye una conversación inicial para revisar el alcance, la ejecución del trabajo y una entrega con indicaciones para que puedas aprovechar el resultado. Antes de empezar, comparte tus referencias y los detalles importantes.",
+      "cover": "/assets/ilustrations/designer-desk.svg",
+      "imageIds": [],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "Solución esencial para una necesidad concreta.",
+          "priceCents": 16000,
+          "unit": "proyecto",
+          "days": 3,
+          "revisions": 1,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "Un alcance más amplio, definido contigo.",
+          "priceCents": 32000,
+          "unit": "proyecto",
+          "days": 5,
+          "revisions": 2,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "Acompañamiento completo para tu proyecto.",
+          "priceCents": 48000,
+          "unit": "proyecto",
+          "days": 7,
+          "revisions": 3,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "extra-1",
+          "name": "Versión adicional",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "requirements": "Describe tu necesidad e incluye las referencias que tengas.",
+      "faq": [
+        {
+          "question": "¿Cómo coordinamos los detalles?",
+          "answer": "Puedes contactarme antes de contratar. Revisaremos el alcance y resolveremos tus dudas."
+        },
+        {
+          "question": "¿Puedo solicitar otro alcance?",
+          "answer": "Sí. Envíame una solicitud y prepararé una oferta personalizada."
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "servicio-6",
+      "providerId": "pro-6",
+      "title": "Aprende Excel con ejercicios de tu día a día",
+      "categoryId": "clases",
+      "typeId": "tipo-6",
+      "tags": [
+        "aprendizaje",
+        "excel"
+      ],
+      "modality": "digital",
+      "region": "",
+      "zones": "",
+      "description": "Aprende Excel con ejercicios de tu día a día. Trabajaremos a partir de tus necesidades, con una propuesta clara y comunicación durante el proceso.\n\nIncluye una conversación inicial para revisar el alcance, la ejecución del trabajo y una entrega con indicaciones para que puedas aprovechar el resultado. Antes de empezar, comparte tus referencias y los detalles importantes.",
+      "cover": "/assets/ilustrations/designer-giving-a-keynote.svg",
+      "imageIds": [],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "Solución esencial para una necesidad concreta.",
+          "priceCents": 18500,
+          "unit": "proyecto",
+          "days": 3,
+          "revisions": 1,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "Un alcance más amplio, definido contigo.",
+          "priceCents": 37000,
+          "unit": "proyecto",
+          "days": 5,
+          "revisions": 2,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "Acompañamiento completo para tu proyecto.",
+          "priceCents": 55500,
+          "unit": "proyecto",
+          "days": 7,
+          "revisions": 3,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "extra-1",
+          "name": "Versión adicional",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "requirements": "Describe tu necesidad e incluye las referencias que tengas.",
+      "faq": [
+        {
+          "question": "¿Cómo coordinamos los detalles?",
+          "answer": "Puedes contactarme antes de contratar. Revisaremos el alcance y resolveremos tus dudas."
+        },
+        {
+          "question": "¿Puedo solicitar otro alcance?",
+          "answer": "Sí. Envíame una solicitud y prepararé una oferta personalizada."
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "servicio-7",
+      "providerId": "pro-1",
+      "title": "Soluciona las pequeñas reparaciones de casa",
+      "categoryId": "hogar",
+      "typeId": "tipo-1",
+      "tags": [
+        "reparaciones",
+        "hogar"
+      ],
+      "modality": "presencial",
+      "region": "Lima",
+      "zones": "Miraflores, San Isidro, Surco",
+      "description": "Soluciona las pequeñas reparaciones de casa. Trabajaremos a partir de tus necesidades, con una propuesta clara y comunicación durante el proceso.\n\nIncluye una conversación inicial para revisar el alcance, la ejecución del trabajo y una entrega con indicaciones para que puedas aprovechar el resultado. Antes de empezar, comparte tus referencias y los detalles importantes.",
+      "cover": "/assets/ilustrations/business-trip.svg",
+      "imageIds": [],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "Solución esencial para una necesidad concreta.",
+          "priceCents": 8000,
+          "unit": "visita",
+          "days": 3,
+          "revisions": 0,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "Un alcance más amplio, definido contigo.",
+          "priceCents": 16000,
+          "unit": "visita",
+          "days": 5,
+          "revisions": 0,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "Acompañamiento completo para tu proyecto.",
+          "priceCents": 24000,
+          "unit": "visita",
+          "days": 7,
+          "revisions": 0,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "extra-1",
+          "name": "Visita adicional",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "requirements": "Describe tu necesidad e incluye las referencias que tengas.",
+      "faq": [
+        {
+          "question": "¿Cómo coordinamos los detalles?",
+          "answer": "Puedes contactarme antes de contratar. Revisaremos el alcance y resolveremos tus dudas."
+        },
+        {
+          "question": "¿Puedo solicitar otro alcance?",
+          "answer": "Sí. Envíame una solicitud y prepararé una oferta personalizada."
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "servicio-8",
+      "providerId": "pro-2",
+      "title": "Recupera la velocidad de tu computadora",
+      "categoryId": "soporte",
+      "typeId": "tipo-2",
+      "tags": [
+        "laptops",
+        "soporte"
+      ],
+      "modality": "presencial",
+      "region": "Lima",
+      "zones": "Miraflores, San Isidro, Surco",
+      "description": "Recupera la velocidad de tu computadora. Trabajaremos a partir de tus necesidades, con una propuesta clara y comunicación durante el proceso.\n\nIncluye una conversación inicial para revisar el alcance, la ejecución del trabajo y una entrega con indicaciones para que puedas aprovechar el resultado. Antes de empezar, comparte tus referencias y los detalles importantes.",
+      "cover": "/assets/ilustrations/business-presentation.svg",
+      "imageIds": [],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "Solución esencial para una necesidad concreta.",
+          "priceCents": 10500,
+          "unit": "visita",
+          "days": 3,
+          "revisions": 0,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "Un alcance más amplio, definido contigo.",
+          "priceCents": 21000,
+          "unit": "visita",
+          "days": 5,
+          "revisions": 0,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "Acompañamiento completo para tu proyecto.",
+          "priceCents": 31500,
+          "unit": "visita",
+          "days": 7,
+          "revisions": 0,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "extra-1",
+          "name": "Visita adicional",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "requirements": "Describe tu necesidad e incluye las referencias que tengas.",
+      "faq": [
+        {
+          "question": "¿Cómo coordinamos los detalles?",
+          "answer": "Puedes contactarme antes de contratar. Revisaremos el alcance y resolveremos tus dudas."
+        },
+        {
+          "question": "¿Puedo solicitar otro alcance?",
+          "answer": "Sí. Envíame una solicitud y prepararé una oferta personalizada."
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "servicio-9",
+      "providerId": "pro-3",
+      "title": "Reels con ritmo para contar tu historia",
+      "categoryId": "diseno",
+      "typeId": "tipo-3",
+      "tags": [
+        "diseño",
+        "reels"
+      ],
+      "modality": "digital",
+      "region": "",
+      "zones": "",
+      "description": "Reels con ritmo para contar tu historia. Trabajaremos a partir de tus necesidades, con una propuesta clara y comunicación durante el proceso.\n\nIncluye una conversación inicial para revisar el alcance, la ejecución del trabajo y una entrega con indicaciones para que puedas aprovechar el resultado. Antes de empezar, comparte tus referencias y los detalles importantes.",
+      "cover": "/assets/ilustrations/change-setting.svg",
+      "imageIds": [],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "Solución esencial para una necesidad concreta.",
+          "priceCents": 13000,
+          "unit": "proyecto",
+          "days": 3,
+          "revisions": 1,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "Un alcance más amplio, definido contigo.",
+          "priceCents": 26000,
+          "unit": "proyecto",
+          "days": 5,
+          "revisions": 2,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "Acompañamiento completo para tu proyecto.",
+          "priceCents": 39000,
+          "unit": "proyecto",
+          "days": 7,
+          "revisions": 3,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "extra-1",
+          "name": "Versión adicional",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "requirements": "Describe tu necesidad e incluye las referencias que tengas.",
+      "faq": [
+        {
+          "question": "¿Cómo coordinamos los detalles?",
+          "answer": "Puedes contactarme antes de contratar. Revisaremos el alcance y resolveremos tus dudas."
+        },
+        {
+          "question": "¿Puedo solicitar otro alcance?",
+          "answer": "Sí. Envíame una solicitud y prepararé una oferta personalizada."
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "servicio-10",
+      "providerId": "pro-4",
+      "title": "Una tienda online para tu emprendimiento",
+      "categoryId": "desarrollo",
+      "typeId": "tipo-4",
+      "tags": [
+        "web",
+        "javascript"
+      ],
+      "modality": "digital",
+      "region": "",
+      "zones": "",
+      "description": "Una tienda online para tu emprendimiento. Trabajaremos a partir de tus necesidades, con una propuesta clara y comunicación durante el proceso.\n\nIncluye una conversación inicial para revisar el alcance, la ejecución del trabajo y una entrega con indicaciones para que puedas aprovechar el resultado. Antes de empezar, comparte tus referencias y los detalles importantes.",
+      "cover": "/assets/ilustrations/conversation-businessman-customer.svg",
+      "imageIds": [],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "Solución esencial para una necesidad concreta.",
+          "priceCents": 15500,
+          "unit": "proyecto",
+          "days": 3,
+          "revisions": 1,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "Un alcance más amplio, definido contigo.",
+          "priceCents": 31000,
+          "unit": "proyecto",
+          "days": 5,
+          "revisions": 2,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "Acompañamiento completo para tu proyecto.",
+          "priceCents": 46500,
+          "unit": "proyecto",
+          "days": 7,
+          "revisions": 3,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "extra-1",
+          "name": "Versión adicional",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "requirements": "Describe tu necesidad e incluye las referencias que tengas.",
+      "faq": [
+        {
+          "question": "¿Cómo coordinamos los detalles?",
+          "answer": "Puedes contactarme antes de contratar. Revisaremos el alcance y resolveremos tus dudas."
+        },
+        {
+          "question": "¿Puedo solicitar otro alcance?",
+          "answer": "Sí. Envíame una solicitud y prepararé una oferta personalizada."
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "servicio-11",
+      "providerId": "pro-5",
+      "title": "Contenido para un mes de redes sociales",
+      "categoryId": "marketing",
+      "typeId": "tipo-5",
+      "tags": [
+        "redacción",
+        "marcas"
+      ],
+      "modality": "digital",
+      "region": "",
+      "zones": "",
+      "description": "Contenido para un mes de redes sociales. Trabajaremos a partir de tus necesidades, con una propuesta clara y comunicación durante el proceso.\n\nIncluye una conversación inicial para revisar el alcance, la ejecución del trabajo y una entrega con indicaciones para que puedas aprovechar el resultado. Antes de empezar, comparte tus referencias y los detalles importantes.",
+      "cover": "/assets/ilustrations/designer-desk.svg",
+      "imageIds": [],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "Solución esencial para una necesidad concreta.",
+          "priceCents": 18000,
+          "unit": "proyecto",
+          "days": 3,
+          "revisions": 1,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "Un alcance más amplio, definido contigo.",
+          "priceCents": 36000,
+          "unit": "proyecto",
+          "days": 5,
+          "revisions": 2,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "Acompañamiento completo para tu proyecto.",
+          "priceCents": 54000,
+          "unit": "proyecto",
+          "days": 7,
+          "revisions": 3,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "extra-1",
+          "name": "Versión adicional",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "requirements": "Describe tu necesidad e incluye las referencias que tengas.",
+      "faq": [
+        {
+          "question": "¿Cómo coordinamos los detalles?",
+          "answer": "Puedes contactarme antes de contratar. Revisaremos el alcance y resolveremos tus dudas."
+        },
+        {
+          "question": "¿Puedo solicitar otro alcance?",
+          "answer": "Sí. Envíame una solicitud y prepararé una oferta personalizada."
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "servicio-12",
+      "providerId": "pro-6",
+      "title": "Refuerza tus conocimientos de matemáticas",
+      "categoryId": "clases",
+      "typeId": "tipo-6",
+      "tags": [
+        "aprendizaje",
+        "excel"
+      ],
+      "modality": "digital",
+      "region": "",
+      "zones": "",
+      "description": "Refuerza tus conocimientos de matemáticas. Trabajaremos a partir de tus necesidades, con una propuesta clara y comunicación durante el proceso.\n\nIncluye una conversación inicial para revisar el alcance, la ejecución del trabajo y una entrega con indicaciones para que puedas aprovechar el resultado. Antes de empezar, comparte tus referencias y los detalles importantes.",
+      "cover": "/assets/ilustrations/designer-giving-a-keynote.svg",
+      "imageIds": [],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "Solución esencial para una necesidad concreta.",
+          "priceCents": 20500,
+          "unit": "proyecto",
+          "days": 3,
+          "revisions": 1,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "Un alcance más amplio, definido contigo.",
+          "priceCents": 41000,
+          "unit": "proyecto",
+          "days": 5,
+          "revisions": 2,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "Acompañamiento completo para tu proyecto.",
+          "priceCents": 61500,
+          "unit": "proyecto",
+          "days": 7,
+          "revisions": 3,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "extra-1",
+          "name": "Versión adicional",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "requirements": "Describe tu necesidad e incluye las referencias que tengas.",
+      "faq": [
+        {
+          "question": "¿Cómo coordinamos los detalles?",
+          "answer": "Puedes contactarme antes de contratar. Revisaremos el alcance y resolveremos tus dudas."
+        },
+        {
+          "question": "¿Puedo solicitar otro alcance?",
+          "answer": "Sí. Envíame una solicitud y prepararé una oferta personalizada."
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "servicio-13",
+      "providerId": "pro-1",
+      "title": "Renueva la iluminación de tus espacios",
+      "categoryId": "hogar",
+      "typeId": "tipo-1",
+      "tags": [
+        "reparaciones",
+        "hogar"
+      ],
+      "modality": "presencial",
+      "region": "Lima",
+      "zones": "Miraflores, San Isidro, Surco",
+      "description": "Renueva la iluminación de tus espacios. Trabajaremos a partir de tus necesidades, con una propuesta clara y comunicación durante el proceso.\n\nIncluye una conversación inicial para revisar el alcance, la ejecución del trabajo y una entrega con indicaciones para que puedas aprovechar el resultado. Antes de empezar, comparte tus referencias y los detalles importantes.",
+      "cover": "/assets/ilustrations/business-trip.svg",
+      "imageIds": [],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "Solución esencial para una necesidad concreta.",
+          "priceCents": 8000,
+          "unit": "visita",
+          "days": 3,
+          "revisions": 0,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "Un alcance más amplio, definido contigo.",
+          "priceCents": 16000,
+          "unit": "visita",
+          "days": 5,
+          "revisions": 0,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "Acompañamiento completo para tu proyecto.",
+          "priceCents": 24000,
+          "unit": "visita",
+          "days": 7,
+          "revisions": 0,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "extra-1",
+          "name": "Visita adicional",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "requirements": "Describe tu necesidad e incluye las referencias que tengas.",
+      "faq": [
+        {
+          "question": "¿Cómo coordinamos los detalles?",
+          "answer": "Puedes contactarme antes de contratar. Revisaremos el alcance y resolveremos tus dudas."
+        },
+        {
+          "question": "¿Puedo solicitar otro alcance?",
+          "answer": "Sí. Envíame una solicitud y prepararé una oferta personalizada."
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "servicio-14",
+      "providerId": "pro-2",
+      "title": "Configura tu red y mejora tu conexión",
+      "categoryId": "soporte",
+      "typeId": "tipo-2",
+      "tags": [
+        "laptops",
+        "soporte"
+      ],
+      "modality": "presencial",
+      "region": "Lima",
+      "zones": "Miraflores, San Isidro, Surco",
+      "description": "Configura tu red y mejora tu conexión. Trabajaremos a partir de tus necesidades, con una propuesta clara y comunicación durante el proceso.\n\nIncluye una conversación inicial para revisar el alcance, la ejecución del trabajo y una entrega con indicaciones para que puedas aprovechar el resultado. Antes de empezar, comparte tus referencias y los detalles importantes.",
+      "cover": "/assets/ilustrations/business-presentation.svg",
+      "imageIds": [],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "Solución esencial para una necesidad concreta.",
+          "priceCents": 10500,
+          "unit": "visita",
+          "days": 3,
+          "revisions": 0,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "Un alcance más amplio, definido contigo.",
+          "priceCents": 21000,
+          "unit": "visita",
+          "days": 5,
+          "revisions": 0,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "Acompañamiento completo para tu proyecto.",
+          "priceCents": 31500,
+          "unit": "visita",
+          "days": 7,
+          "revisions": 0,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "extra-1",
+          "name": "Visita adicional",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "requirements": "Describe tu necesidad e incluye las referencias que tengas.",
+      "faq": [
+        {
+          "question": "¿Cómo coordinamos los detalles?",
+          "answer": "Puedes contactarme antes de contratar. Revisaremos el alcance y resolveremos tus dudas."
+        },
+        {
+          "question": "¿Puedo solicitar otro alcance?",
+          "answer": "Sí. Envíame una solicitud y prepararé una oferta personalizada."
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "servicio-15",
+      "providerId": "pro-3",
+      "title": "Diseña una presentación que conecte",
+      "categoryId": "diseno",
+      "typeId": "tipo-3",
+      "tags": [
+        "diseño",
+        "reels"
+      ],
+      "modality": "digital",
+      "region": "",
+      "zones": "",
+      "description": "Diseña una presentación que conecte. Trabajaremos a partir de tus necesidades, con una propuesta clara y comunicación durante el proceso.\n\nIncluye una conversación inicial para revisar el alcance, la ejecución del trabajo y una entrega con indicaciones para que puedas aprovechar el resultado. Antes de empezar, comparte tus referencias y los detalles importantes.",
+      "cover": "/assets/ilustrations/change-setting.svg",
+      "imageIds": [],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "Solución esencial para una necesidad concreta.",
+          "priceCents": 13000,
+          "unit": "proyecto",
+          "days": 3,
+          "revisions": 1,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "Un alcance más amplio, definido contigo.",
+          "priceCents": 26000,
+          "unit": "proyecto",
+          "days": 5,
+          "revisions": 2,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "Acompañamiento completo para tu proyecto.",
+          "priceCents": 39000,
+          "unit": "proyecto",
+          "days": 7,
+          "revisions": 3,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "extra-1",
+          "name": "Versión adicional",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "requirements": "Describe tu necesidad e incluye las referencias que tengas.",
+      "faq": [
+        {
+          "question": "¿Cómo coordinamos los detalles?",
+          "answer": "Puedes contactarme antes de contratar. Revisaremos el alcance y resolveremos tus dudas."
+        },
+        {
+          "question": "¿Puedo solicitar otro alcance?",
+          "answer": "Sí. Envíame una solicitud y prepararé una oferta personalizada."
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "servicio-16",
+      "providerId": "pro-4",
+      "title": "Automatiza tareas con JavaScript",
+      "categoryId": "desarrollo",
+      "typeId": "tipo-4",
+      "tags": [
+        "web",
+        "javascript"
+      ],
+      "modality": "digital",
+      "region": "",
+      "zones": "",
+      "description": "Automatiza tareas con JavaScript. Trabajaremos a partir de tus necesidades, con una propuesta clara y comunicación durante el proceso.\n\nIncluye una conversación inicial para revisar el alcance, la ejecución del trabajo y una entrega con indicaciones para que puedas aprovechar el resultado. Antes de empezar, comparte tus referencias y los detalles importantes.",
+      "cover": "/assets/ilustrations/conversation-businessman-customer.svg",
+      "imageIds": [],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "Solución esencial para una necesidad concreta.",
+          "priceCents": 15500,
+          "unit": "proyecto",
+          "days": 3,
+          "revisions": 1,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "Un alcance más amplio, definido contigo.",
+          "priceCents": 31000,
+          "unit": "proyecto",
+          "days": 5,
+          "revisions": 2,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "Acompañamiento completo para tu proyecto.",
+          "priceCents": 46500,
+          "unit": "proyecto",
+          "days": 7,
+          "revisions": 3,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "extra-1",
+          "name": "Versión adicional",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "requirements": "Describe tu necesidad e incluye las referencias que tengas.",
+      "faq": [
+        {
+          "question": "¿Cómo coordinamos los detalles?",
+          "answer": "Puedes contactarme antes de contratar. Revisaremos el alcance y resolveremos tus dudas."
+        },
+        {
+          "question": "¿Puedo solicitar otro alcance?",
+          "answer": "Sí. Envíame una solicitud y prepararé una oferta personalizada."
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "servicio-17",
+      "providerId": "pro-5",
+      "title": "Revisa y mejora los textos de tu web",
+      "categoryId": "marketing",
+      "typeId": "tipo-5",
+      "tags": [
+        "redacción",
+        "marcas"
+      ],
+      "modality": "digital",
+      "region": "",
+      "zones": "",
+      "description": "Revisa y mejora los textos de tu web. Trabajaremos a partir de tus necesidades, con una propuesta clara y comunicación durante el proceso.\n\nIncluye una conversación inicial para revisar el alcance, la ejecución del trabajo y una entrega con indicaciones para que puedas aprovechar el resultado. Antes de empezar, comparte tus referencias y los detalles importantes.",
+      "cover": "/assets/ilustrations/designer-desk.svg",
+      "imageIds": [],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "Solución esencial para una necesidad concreta.",
+          "priceCents": 18000,
+          "unit": "proyecto",
+          "days": 3,
+          "revisions": 1,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "Un alcance más amplio, definido contigo.",
+          "priceCents": 36000,
+          "unit": "proyecto",
+          "days": 5,
+          "revisions": 2,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "Acompañamiento completo para tu proyecto.",
+          "priceCents": 54000,
+          "unit": "proyecto",
+          "days": 7,
+          "revisions": 3,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "extra-1",
+          "name": "Versión adicional",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "requirements": "Describe tu necesidad e incluye las referencias que tengas.",
+      "faq": [
+        {
+          "question": "¿Cómo coordinamos los detalles?",
+          "answer": "Puedes contactarme antes de contratar. Revisaremos el alcance y resolveremos tus dudas."
+        },
+        {
+          "question": "¿Puedo solicitar otro alcance?",
+          "answer": "Sí. Envíame una solicitud y prepararé una oferta personalizada."
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "servicio-18",
+      "providerId": "pro-6",
+      "title": "Practica inglés con conversaciones reales",
+      "categoryId": "clases",
+      "typeId": "tipo-6",
+      "tags": [
+        "aprendizaje",
+        "excel"
+      ],
+      "modality": "digital",
+      "region": "",
+      "zones": "",
+      "description": "Practica inglés con conversaciones reales. Trabajaremos a partir de tus necesidades, con una propuesta clara y comunicación durante el proceso.\n\nIncluye una conversación inicial para revisar el alcance, la ejecución del trabajo y una entrega con indicaciones para que puedas aprovechar el resultado. Antes de empezar, comparte tus referencias y los detalles importantes.",
+      "cover": "/assets/ilustrations/designer-giving-a-keynote.svg",
+      "imageIds": [],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "Solución esencial para una necesidad concreta.",
+          "priceCents": 20500,
+          "unit": "proyecto",
+          "days": 3,
+          "revisions": 1,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "Un alcance más amplio, definido contigo.",
+          "priceCents": 41000,
+          "unit": "proyecto",
+          "days": 5,
+          "revisions": 2,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "Acompañamiento completo para tu proyecto.",
+          "priceCents": 61500,
+          "unit": "proyecto",
+          "days": 7,
+          "revisions": 3,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado",
+            "Seguimiento personalizado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "extra-1",
+          "name": "Versión adicional",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "requirements": "Describe tu necesidad e incluye las referencias que tengas.",
+      "faq": [
+        {
+          "question": "¿Cómo coordinamos los detalles?",
+          "answer": "Puedes contactarme antes de contratar. Revisaremos el alcance y resolveremos tus dudas."
+        },
+        {
+          "question": "¿Puedo solicitar otro alcance?",
+          "answer": "Sí. Envíame una solicitud y prepararé una oferta personalizada."
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "title": "Diseñaré tu página web con CRO y SEO",
+      "categoryId": "desarrollo",
+      "typeId": "tipo-4",
+      "modality": "digital",
+      "region": "",
+      "zones": "",
+      "description": "kjlasdff kasd asd hks sfd asdf hkasdfasdf",
+      "requirements": "hjhjhjhjhhjhjhjlhjhglk gl g gh ghljhj",
+      "status": "published",
+      "tags": [
+        "diseño web",
+        "CRO",
+        "SEO",
+        "figma"
+      ],
+      "imageIds": [
+        "da65c59a-d999-4920-a5b0-9aecbe0d48ba"
+      ],
+      "packages": [
+        {
+          "id": "paquete-1",
+          "name": "Básico",
+          "scope": "jsdafjfkjlk fdjlk asdlk jadlk jasd lksda",
+          "priceCents": 6000,
+          "unit": "proyecto",
+          "days": 3,
+          "revisions": 1,
+          "bookingMode": "direct",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-2",
+          "name": "Estándar",
+          "scope": "cfkylygligi",
+          "priceCents": 12000,
+          "unit": "proyecto",
+          "days": 5,
+          "revisions": 1,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        },
+        {
+          "id": "paquete-3",
+          "name": "Premium",
+          "scope": "hchfukfylglii",
+          "priceCents": 18000,
+          "unit": "proyecto",
+          "days": 7,
+          "revisions": 1,
+          "bookingMode": "request",
+          "features": [
+            "Coordinación inicial",
+            "Entrega del alcance acordado"
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "a64d2f7b-6dce-40cf-b1d3-6e343348685f",
+          "name": "Animaciones",
+          "priceCents": 2500,
+          "days": 1
+        }
+      ],
+      "faq": [
+        {
+          "question": "Puedo pedir correcciones?",
+          "answer": "Sila."
+        }
+      ],
+      "cover": "/assets/ilustrations/designer-desk.svg",
+      "id": "99528673-45b6-429d-8fff-e2ee19229c62",
+      "providerId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "createdAt": "2026-10-12T16:21:18.169Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conversacion-demo",
+      "participantIds": [
+        "cliente",
+        "pro-1"
+      ],
+      "customerId": "cliente",
+      "providerId": "pro-1",
+      "createdAt": "2026-10-01T15:00:00Z",
+      "updatedAt": "2026-10-01T15:20:00.000Z"
+    },
+    {
+      "id": "3def165c-58ee-4b48-b17e-f6a5948a9df4",
+      "customerId": "pro-1",
+      "providerId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "participantIds": [
+        "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+        "pro-1"
+      ],
+      "createdAt": "2026-10-12T16:49:12.640Z",
+      "updatedAt": "2026-10-12T16:53:38.741Z"
+    },
+    {
+      "id": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "customerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "providerId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "participantIds": [
+        "1b5f06be-373b-416c-afad-89f072a46211",
+        "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e"
+      ],
+      "createdAt": "2026-10-12T17:03:31.294Z",
+      "updatedAt": "2026-10-12T17:31:00.020Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "mensaje-1",
+      "conversationId": "conversacion-demo",
+      "authorId": "cliente",
+      "authorName": "Ana Mendoza",
+      "text": "Hola Lucía, quisiera coordinar la instalación de dos repisas.",
+      "kind": "text",
+      "fileIds": [],
+      "createdAt": "2026-10-01T15:00:00Z",
+      "contextCustomerId": "cliente",
+      "contextProviderId": "pro-1"
+    },
+    {
+      "id": "mensaje-2",
+      "conversationId": "conversacion-demo",
+      "authorId": "pro-1",
+      "authorName": "Lucía Ramos",
+      "text": "Hola Ana. Claro, podemos revisar las medidas y el tipo de pared.",
+      "kind": "text",
+      "fileIds": [],
+      "createdAt": "2026-10-01T15:18:00Z",
+      "contextCustomerId": "cliente",
+      "contextProviderId": "pro-1"
+    },
+    {
+      "id": "mensaje-oferta",
+      "conversationId": "conversacion-demo",
+      "authorId": "pro-1",
+      "authorName": "Lucía Ramos",
+      "kind": "offer",
+      "referenceId": "oferta-demo",
+      "text": "Instalación de dos repisas",
+      "fileIds": [],
+      "createdAt": "2026-10-01T15:20:00.000Z",
+      "contextCustomerId": "cliente",
+      "contextProviderId": "pro-1"
+    },
+    {
+      "id": "5b752c1a-54cf-41ef-a1c1-afb66a59f61c",
+      "conversationId": "3def165c-58ee-4b48-b17e-f6a5948a9df4",
+      "contextCustomerId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "contextProviderId": "pro-1",
+      "authorId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorName": "Guillermo",
+      "text": "Ignora este mensaje, es de pruebita nomás",
+      "kind": "text",
+      "fileIds": [],
+      "createdAt": "2026-10-12T16:49:58.716Z"
+    },
+    {
+      "id": "5b87791a-f8e1-4fda-96f8-53d7f12df407",
+      "conversationId": "3def165c-58ee-4b48-b17e-f6a5948a9df4",
+      "contextCustomerId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "contextProviderId": "pro-1",
+      "authorId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorName": "Guillermo",
+      "text": "Prueba 2",
+      "kind": "text",
+      "fileIds": [
+        "4790f889-9aa4-402c-989f-e4d82610a5af"
+      ],
+      "createdAt": "2026-10-12T16:51:01.068Z"
+    },
+    {
+      "id": "18771a47-72c4-4fe6-ba88-12b5bd8151a0",
+      "conversationId": "3def165c-58ee-4b48-b17e-f6a5948a9df4",
+      "contextCustomerId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "contextProviderId": "pro-1",
+      "authorId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorName": "Guillermo",
+      "text": "chévere",
+      "kind": "text",
+      "fileIds": [],
+      "replyToId": "5b87791a-f8e1-4fda-96f8-53d7f12df407",
+      "createdAt": "2026-10-12T16:52:58.199Z"
+    },
+    {
+      "id": "e8f9c199-e489-4afd-96ea-b09b5b5cd7a5",
+      "conversationId": "3def165c-58ee-4b48-b17e-f6a5948a9df4",
+      "contextCustomerId": "pro-1",
+      "contextProviderId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorName": "Guillermo",
+      "kind": "offer",
+      "text": "Diseño de página web",
+      "referenceId": "c823baab-57f8-4186-8860-bdb2547c199c",
+      "fileIds": [],
+      "createdAt": "2026-10-12T16:53:38.741Z"
+    },
+    {
+      "id": "cbdac3ab-45fb-4633-9821-ef5b5a822887",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "contextCustomerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "contextProviderId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "authorName": "José",
+      "kind": "event",
+      "text": "Contratación confirmada",
+      "referenceId": "c21cabc7-b603-4d92-af7e-0645c65909fe",
+      "fileIds": [],
+      "createdAt": "2026-10-12T17:03:31.295Z"
+    },
+    {
+      "id": "91595b5d-49e1-48b4-b2af-2d1428f2349b",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "contextCustomerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "contextProviderId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "authorName": "José",
+      "text": "Qué tal bro",
+      "kind": "text",
+      "fileIds": [
+        "1931ad15-5122-479d-8c16-7f8ef889226c"
+      ],
+      "createdAt": "2026-10-12T17:04:58.595Z"
+    },
+    {
+      "id": "d7422214-a549-413e-bb22-08be3b1dde1c",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "contextCustomerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "contextProviderId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorName": "Guillermo",
+      "text": "Hola mano",
+      "kind": "text",
+      "fileIds": [],
+      "createdAt": "2026-10-12T17:06:53.697Z"
+    },
+    {
+      "id": "953cac9e-aed0-4c2d-9c38-0c8c051acfc2",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "contextCustomerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "contextProviderId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorName": "Guillermo",
+      "text": "Mientras voy avanzando con tu página, revisa los demás paquetes que tiene este servicio, vayas a querer para otro sitio web 😉",
+      "kind": "text",
+      "fileIds": [],
+      "createdAt": "2026-10-12T17:07:38.336Z"
+    },
+    {
+      "id": "85c38a8b-5be4-49c9-b711-413df1e78a76",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "contextCustomerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "contextProviderId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "authorName": "José",
+      "kind": "request",
+      "text": "Diseñaré tu página web con CRO y SEO · Premium\nQuiero la mejor landing page que puedas hacer para vender un lapicero.",
+      "referenceId": "80a2fd09-ee8a-4000-8e8a-a61ad59b49dc",
+      "fileIds": [
+        "c58eaf07-ded5-48d5-aa5c-cf0fa1fc4c3a"
+      ],
+      "createdAt": "2026-10-12T17:13:08.766Z"
+    },
+    {
+      "id": "80b45736-07f4-43b8-81df-2074e7847fbb",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "contextCustomerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "contextProviderId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorName": "Guillermo",
+      "kind": "offer",
+      "text": "Diseño de página web premium",
+      "referenceId": "bbb2b6fe-1729-4174-afb4-f8f50eb8f810",
+      "fileIds": [],
+      "createdAt": "2026-10-12T17:20:49.425Z"
+    },
+    {
+      "id": "5f64d85c-fb31-46ed-bc6e-e57496d57f7a",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "contextCustomerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "contextProviderId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "authorName": "José",
+      "kind": "event",
+      "text": "Contratación confirmada",
+      "referenceId": "e2dbcd41-e1f1-4523-ba0f-4672cddacd3f",
+      "fileIds": [],
+      "createdAt": "2026-10-12T17:24:34.248Z"
+    },
+    {
+      "id": "f0adecc5-62da-4d34-91d7-357cc5322cab",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "contextCustomerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "contextProviderId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorName": "Guillermo",
+      "kind": "event",
+      "text": "Trabajo iniciado",
+      "referenceId": "e2dbcd41-e1f1-4523-ba0f-4672cddacd3f",
+      "fileIds": [],
+      "createdAt": "2026-10-12T17:28:24.058Z"
+    },
+    {
+      "id": "6fb3ae8c-4534-469a-920c-752023450352",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "contextCustomerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "contextProviderId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorName": "Guillermo",
+      "kind": "event",
+      "text": "Entrega pendiente de confirmación",
+      "referenceId": "e2dbcd41-e1f1-4523-ba0f-4672cddacd3f",
+      "fileIds": [],
+      "createdAt": "2026-10-12T17:28:57.323Z"
+    },
+    {
+      "id": "3f335993-0992-4be6-bce2-285fec9aa302",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "contextCustomerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "contextProviderId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "authorName": "José",
+      "kind": "event",
+      "text": "Ajuste solicitado",
+      "referenceId": "e2dbcd41-e1f1-4523-ba0f-4672cddacd3f",
+      "fileIds": [],
+      "createdAt": "2026-10-12T17:30:04.494Z"
+    },
+    {
+      "id": "a3e61283-1287-4327-98c4-8866b824a8ea",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "contextCustomerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "contextProviderId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorName": "Guillermo",
+      "kind": "event",
+      "text": "Entrega pendiente de confirmación",
+      "referenceId": "e2dbcd41-e1f1-4523-ba0f-4672cddacd3f",
+      "fileIds": [],
+      "createdAt": "2026-10-12T17:30:52.592Z"
+    },
+    {
+      "id": "f8340f90-0541-4bbd-82b1-1ca39600cf31",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "contextCustomerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "contextProviderId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "authorId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "authorName": "José",
+      "kind": "event",
+      "text": "Pedido completado",
+      "referenceId": "e2dbcd41-e1f1-4523-ba0f-4672cddacd3f",
+      "fileIds": [],
+      "createdAt": "2026-10-12T17:31:00.020Z"
+    }
+  ],
+  "conversationPreferences": [
+    {
+      "id": "4e6f8438-b339-4956-81df-ec0249fb77f0",
+      "userId": "pro-1",
+      "conversationId": "3def165c-58ee-4b48-b17e-f6a5948a9df4",
+      "folder": "inbox",
+      "starred": false,
+      "unread": true,
+      "readAt": "",
+      "labelIds": [],
+      "savedMessageIds": []
+    },
+    {
+      "id": "ce0aeb2a-d6b6-4eaa-9a60-e149b8f192fe",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "conversationId": "3def165c-58ee-4b48-b17e-f6a5948a9df4",
+      "folder": "inbox",
+      "starred": true,
+      "unread": false,
+      "readAt": "2026-10-12T17:15:26.888Z",
+      "labelIds": [
+        "00139909-a23f-4397-8862-8dda7cd1fda3"
+      ],
+      "savedMessageIds": [
+        "5b752c1a-54cf-41ef-a1c1-afb66a59f61c"
+      ]
+    },
+    {
+      "id": "c48b4a3f-931c-42ce-9f10-202668174726",
+      "userId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "folder": "inbox",
+      "starred": false,
+      "unread": false,
+      "readAt": "2026-10-12T17:34:27.976Z",
+      "labelIds": [],
+      "savedMessageIds": [
+        "80b45736-07f4-43b8-81df-2074e7847fbb"
+      ]
+    },
+    {
+      "id": "5dd86d3b-c594-46c8-8924-256ed239d62e",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "folder": "inbox",
+      "starred": false,
+      "unread": false,
+      "readAt": "2026-10-12T17:34:13.731Z",
+      "labelIds": [],
+      "savedMessageIds": []
+    }
+  ],
+  "userConversationLabels": [
+    {
+      "id": "f6d9539e-ebd5-4823-bfc1-29d901918a97",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "name": "Nueva consulta",
+      "description": ""
+    },
+    {
+      "id": "00139909-a23f-4397-8862-8dda7cd1fda3",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "name": "Seguimiento",
+      "description": ""
+    },
+    {
+      "id": "de1ba295-b188-4035-a7a3-fb4d47436786",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "name": "En curso",
+      "description": ""
+    },
+    {
+      "id": "fba9dc31-3ed5-464f-b772-431bf1f1664c",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "name": "Completado",
+      "description": ""
+    },
+    {
+      "id": "5b111696-0de6-48f2-ae30-965c59e7943e",
+      "userId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "name": "Nueva consulta",
+      "description": ""
+    },
+    {
+      "id": "e1820f34-fca7-4988-a57f-cc9afc9c78da",
+      "userId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "name": "Seguimiento",
+      "description": ""
+    },
+    {
+      "id": "73b7ace5-8a59-42ed-b8da-84dee3f45c1f",
+      "userId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "name": "En curso",
+      "description": ""
+    },
+    {
+      "id": "45d7a76e-eae6-4892-b906-1862883d8486",
+      "userId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "name": "Completado",
+      "description": ""
+    }
+  ],
+  "requests": [
+    {
+      "id": "80a2fd09-ee8a-4000-8e8a-a61ad59b49dc",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "customerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "providerId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "serviceId": "99528673-45b6-429d-8fff-e2ee19229c62",
+      "packageId": "paquete-3",
+      "snapshot": {
+        "title": "Diseñaré tu página web con CRO y SEO",
+        "packageName": "Premium"
+      },
+      "text": "Quiero la mejor landing page que puedas hacer para vender un lapicero.",
+      "fileIds": [
+        "c58eaf07-ded5-48d5-aa5c-cf0fa1fc4c3a"
+      ],
+      "createdAt": "2026-10-12T17:13:08.766Z"
+    }
+  ],
+  "offers": [
+    {
+      "id": "oferta-demo",
+      "conversationId": "conversacion-demo",
+      "providerId": "pro-1",
+      "customerId": "cliente",
+      "serviceId": "servicio-1",
+      "title": "Instalación de dos repisas",
+      "scope": "Instalación y nivelación. No incluye materiales.",
+      "totalCents": 12000,
+      "days": 3,
+      "paymentMode": "onsite",
+      "expiresAt": "2027-12-31T23:59:00Z",
+      "status": "pending",
+      "createdAt": "2026-10-01T15:20:00.000Z"
+    },
+    {
+      "id": "c823baab-57f8-4186-8860-bdb2547c199c",
+      "conversationId": "3def165c-58ee-4b48-b17e-f6a5948a9df4",
+      "serviceId": "99528673-45b6-429d-8fff-e2ee19229c62",
+      "providerId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "customerId": "pro-1",
+      "title": "Diseño de página web",
+      "scope": "iasdasdjkasdfjk asdf",
+      "totalCents": 10000,
+      "days": 3,
+      "paymentMode": "platform",
+      "expiresAt": "2026-10-15T16:53:00.000Z",
+      "status": "pending",
+      "createdAt": "2026-10-12T16:53:38.741Z"
+    },
+    {
+      "id": "bbb2b6fe-1729-4174-afb4-f8f50eb8f810",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "serviceId": "99528673-45b6-429d-8fff-e2ee19229c62",
+      "providerId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "customerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "title": "Diseño de página web premium",
+      "scope": "Lo mejor de lo mejor",
+      "totalCents": 18000,
+      "days": 5,
+      "paymentMode": "platform",
+      "expiresAt": "2026-10-13T17:20:00.000Z",
+      "status": "accepted",
+      "createdAt": "2026-10-12T17:20:49.425Z",
+      "orderId": "e2dbcd41-e1f1-4523-ba0f-4672cddacd3f"
+    }
+  ],
+  "orders": [
+    {
+      "id": "pedido-demo-1",
+      "serviceId": "servicio-1",
+      "customerId": "cliente",
+      "providerId": "pro-1",
+      "conversationId": "conversacion-demo",
+      "snapshot": {
+        "title": "Deja tus muebles y repisas bien instalados",
+        "providerName": "Lucía Ramos",
+        "packageName": "Básico",
+        "scope": "Solución esencial para una necesidad concreta.",
+        "unitPriceCents": 6000,
+        "quantity": 1,
+        "extras": [],
+        "modality": "presencial",
+        "customerName": "Ana Mendoza"
+      },
+      "totalCents": 6000,
+      "requirements": "Instalar dos repisas en sala.",
+      "status": "completed",
+      "paymentMode": "onsite",
+      "paymentStatus": "confirmed",
+      "createdAt": "2026-10-01T15:00:00Z",
+      "startedAt": "2026-10-02T15:00:00Z",
+      "dueAt": "2026-10-15T15:00:00Z",
+      "requestedAt": "2026-10-02T15:00:00.000Z",
+      "address": "Miraflores, Lima",
+      "events": [
+        {
+          "action": "agreed",
+          "actorId": "cliente",
+          "at": "2026-10-01T15:00:00Z",
+          "note": "Acuerdo creado"
+        },
+        {
+          "action": "start",
+          "actorId": "pro-1",
+          "at": "2026-10-02T15:00:00Z",
+          "note": "Trabajo iniciado"
+        },
+        {
+          "action": "deliver",
+          "actorId": "pro-1",
+          "at": "2026-10-03T14:00:00.000Z",
+          "note": "Instalación entregada"
+        },
+        {
+          "action": "complete",
+          "actorId": "cliente",
+          "at": "2026-10-03T15:00:00Z",
+          "note": "Entrega confirmada"
+        }
+      ],
+      "idempotencyKey": "seed-0"
+    },
+    {
+      "id": "pedido-demo-2",
+      "serviceId": "servicio-1",
+      "customerId": "cliente",
+      "providerId": "pro-1",
+      "conversationId": "conversacion-demo",
+      "snapshot": {
+        "title": "Deja tus muebles y repisas bien instalados",
+        "providerName": "Lucía Ramos",
+        "packageName": "Básico",
+        "scope": "Solución esencial para una necesidad concreta.",
+        "unitPriceCents": 6000,
+        "quantity": 1,
+        "extras": [],
+        "modality": "presencial",
+        "customerName": "Ana Mendoza"
+      },
+      "totalCents": 6000,
+      "requirements": "Instalar dos repisas en sala.",
+      "status": "in_progress",
+      "paymentMode": "onsite",
+      "paymentStatus": "pending",
+      "createdAt": "2026-10-01T15:00:00Z",
+      "startedAt": "2026-10-02T15:00:00Z",
+      "dueAt": "2026-10-15T15:00:00Z",
+      "requestedAt": "2026-10-15T15:00:00Z",
+      "address": "Miraflores, Lima",
+      "events": [
+        {
+          "action": "agreed",
+          "actorId": "cliente",
+          "at": "2026-10-01T15:00:00Z",
+          "note": "Acuerdo creado"
+        },
+        {
+          "action": "start",
+          "actorId": "pro-1",
+          "at": "2026-10-02T15:00:00Z",
+          "note": "Trabajo iniciado"
+        }
+      ],
+      "idempotencyKey": "seed-1"
+    },
+    {
+      "id": "pedido-demo-3",
+      "serviceId": "servicio-1",
+      "customerId": "cliente",
+      "providerId": "pro-1",
+      "conversationId": "conversacion-demo",
+      "snapshot": {
+        "title": "Deja tus muebles y repisas bien instalados",
+        "providerName": "Lucía Ramos",
+        "packageName": "Básico",
+        "scope": "Solución esencial para una necesidad concreta.",
+        "unitPriceCents": 6000,
+        "quantity": 1,
+        "extras": [],
+        "modality": "presencial",
+        "customerName": "Ana Mendoza"
+      },
+      "totalCents": 6000,
+      "requirements": "Instalar dos repisas en sala.",
+      "status": "cancelled",
+      "paymentMode": "onsite",
+      "paymentStatus": "pending",
+      "createdAt": "2026-10-01T15:00:00Z",
+      "startedAt": "2026-10-02T15:00:00Z",
+      "dueAt": "2026-10-15T15:00:00Z",
+      "requestedAt": "2026-10-02T15:00:00.000Z",
+      "address": "Miraflores, Lima",
+      "events": [
+        {
+          "action": "agreed",
+          "actorId": "cliente",
+          "at": "2026-10-01T15:00:00Z",
+          "note": "Acuerdo creado"
+        },
+        {
+          "action": "start",
+          "actorId": "pro-1",
+          "at": "2026-10-02T15:00:00Z",
+          "note": "Trabajo iniciado"
+        },
+        {
+          "action": "cancel",
+          "actorId": "cliente",
+          "at": "2026-10-03T15:00:00Z",
+          "note": "Cambio en la necesidad del cliente"
+        }
+      ],
+      "idempotencyKey": "seed-2"
+    },
+    {
+      "id": "pedido-demo-4",
+      "serviceId": "servicio-1",
+      "customerId": "cliente",
+      "providerId": "pro-1",
+      "conversationId": "conversacion-demo",
+      "snapshot": {
+        "title": "Deja tus muebles y repisas bien instalados",
+        "providerName": "Lucía Ramos",
+        "packageName": "Básico",
+        "scope": "Solución esencial para una necesidad concreta.",
+        "unitPriceCents": 6000,
+        "quantity": 1,
+        "extras": [],
+        "modality": "presencial",
+        "customerName": "Ana Mendoza"
+      },
+      "totalCents": 6000,
+      "requirements": "Instalar dos repisas en sala.",
+      "status": "cancelled",
+      "paymentMode": "onsite",
+      "paymentStatus": "pending",
+      "createdAt": "2026-10-01T15:00:00Z",
+      "dueAt": "2026-10-15T15:00:00Z",
+      "requestedAt": "2026-10-02T15:00:00.000Z",
+      "address": "Miraflores, Lima",
+      "events": [
+        {
+          "action": "agreed",
+          "actorId": "cliente",
+          "at": "2026-10-01T15:00:00Z",
+          "note": "Acuerdo creado"
+        },
+        {
+          "action": "cancel",
+          "actorId": "cliente",
+          "at": "2026-10-03T15:00:00Z",
+          "note": "Cambio en la necesidad del cliente"
+        }
+      ],
+      "idempotencyKey": "seed-3"
+    },
+    {
+      "id": "c21cabc7-b603-4d92-af7e-0645c65909fe",
+      "customerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "providerId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "serviceId": "99528673-45b6-429d-8fff-e2ee19229c62",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "snapshot": {
+        "title": "Diseñaré tu página web con CRO y SEO",
+        "providerName": "Guillermo",
+        "customerName": "José",
+        "packageName": "Básico",
+        "scope": "jsdafjfkjlk fdjlk asdlk jadlk jasd lksda",
+        "unitPriceCents": 6000,
+        "quantity": 1,
+        "extras": [
+          {
+            "id": "a64d2f7b-6dce-40cf-b1d3-6e343348685f",
+            "name": "Animaciones",
+            "priceCents": 2500,
+            "days": 1
+          }
+        ],
+        "modality": "digital"
+      },
+      "totalCents": 8500,
+      "requirements": "Puedes o no causa?",
+      "status": "agreed",
+      "paymentMode": "platform",
+      "paymentStatus": "paid",
+      "dueAt": "2026-10-16T17:03:31.294Z",
+      "createdAt": "2026-10-12T17:03:31.295Z",
+      "events": [
+        {
+          "action": "agreed",
+          "actorId": "1b5f06be-373b-416c-afad-89f072a46211",
+          "at": "2026-10-12T17:03:31.295Z",
+          "note": "Contratación confirmada"
+        }
+      ],
+      "idempotencyKey": "00cb3d60-97bf-417f-81a0-e6035b885187"
+    },
+    {
+      "id": "e2dbcd41-e1f1-4523-ba0f-4672cddacd3f",
+      "customerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "providerId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "serviceId": "99528673-45b6-429d-8fff-e2ee19229c62",
+      "offerId": "bbb2b6fe-1729-4174-afb4-f8f50eb8f810",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "snapshot": {
+        "title": "Diseñaré tu página web con CRO y SEO",
+        "providerName": "Guillermo",
+        "customerName": "José",
+        "packageName": "Diseño de página web premium",
+        "scope": "Lo mejor de lo mejor",
+        "unitPriceCents": 18000,
+        "quantity": 1,
+        "extras": [],
+        "modality": "digital"
+      },
+      "totalCents": 18000,
+      "requirements": "jljkjksd jkasdfasdf asdf asdfadasdf",
+      "status": "completed",
+      "paymentMode": "platform",
+      "paymentStatus": "paid",
+      "dueAt": "2026-10-17T17:24:34.248Z",
+      "createdAt": "2026-10-12T17:24:34.248Z",
+      "events": [
+        {
+          "action": "agreed",
+          "actorId": "1b5f06be-373b-416c-afad-89f072a46211",
+          "at": "2026-10-12T17:24:34.248Z",
+          "note": "Contratación confirmada"
+        },
+        {
+          "action": "start",
+          "actorId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+          "at": "2026-10-12T17:28:24.058Z",
+          "note": ""
+        },
+        {
+          "action": "deliver",
+          "actorId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+          "at": "2026-10-12T17:28:57.323Z",
+          "note": ""
+        },
+        {
+          "action": "adjust",
+          "actorId": "1b5f06be-373b-416c-afad-89f072a46211",
+          "at": "2026-10-12T17:30:04.494Z",
+          "note": "Dale su último acabado"
+        },
+        {
+          "action": "deliver",
+          "actorId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+          "at": "2026-10-12T17:30:52.592Z",
+          "note": ""
+        },
+        {
+          "action": "complete",
+          "actorId": "1b5f06be-373b-416c-afad-89f072a46211",
+          "at": "2026-10-12T17:31:00.020Z",
+          "note": ""
+        }
+      ],
+      "idempotencyKey": "42e86c15-fe32-4f46-80a2-79c30f7dd290",
+      "startedAt": "2026-10-12T17:28:24.058Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pago-demo",
+      "orderId": "pedido-demo-1",
+      "customerId": "cliente",
+      "providerId": "pro-1",
+      "title": "Deja tus muebles y repisas bien instalados",
+      "amountCents": 6000,
+      "status": "confirmed",
+      "createdAt": "2026-10-03T15:00:00Z"
+    },
+    {
+      "id": "04c28f70-779d-4878-ba81-df573d2c0c3e",
+      "orderId": "c21cabc7-b603-4d92-af7e-0645c65909fe",
+      "customerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "providerId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "title": "Diseñaré tu página web con CRO y SEO",
+      "amountCents": 8500,
+      "status": "paid",
+      "createdAt": "2026-10-12T17:03:31.295Z"
+    },
+    {
+      "id": "2e9d62ed-924e-49c1-99a3-14ac216eacad",
+      "orderId": "e2dbcd41-e1f1-4523-ba0f-4672cddacd3f",
+      "customerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "providerId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "title": "Diseñaré tu página web con CRO y SEO",
+      "amountCents": 18000,
+      "status": "paid",
+      "createdAt": "2026-10-12T17:24:34.248Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "resena-1",
+      "orderId": "pedido-demo-1",
+      "serviceId": "servicio-1",
+      "providerId": "pro-1",
+      "customerId": "cliente",
+      "authorName": "Ana Mendoza",
+      "rating": 5,
+      "comment": "Muy cuidadosa con la instalación y puntual. Todo quedó como lo habíamos coordinado.",
+      "response": "Gracias, Ana. Un gusto ayudarte.",
+      "cancelled": false,
+      "createdAt": "2026-10-03T16:00:00Z"
+    },
+    {
+      "id": "resena-2",
+      "orderId": "pedido-demo-3",
+      "serviceId": "servicio-1",
+      "providerId": "pro-1",
+      "customerId": "cliente",
+      "authorName": "Ana Mendoza",
+      "rating": 4,
+      "comment": "La comunicación fue buena. Cancelamos después de empezar porque cambiaron las medidas del espacio.",
+      "cancelled": true,
+      "createdAt": "2026-10-04T16:00:00Z"
+    }
+  ],
+  "favoriteLists": [
+    {
+      "id": "lista-demo",
+      "userId": "cliente",
+      "name": "Ideas para mi casa",
+      "description": "Servicios para los próximos arreglos.",
+      "serviceIds": [
+        "servicio-1",
+        "servicio-7"
+      ],
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "name": "Favoritos",
+      "description": "",
+      "id": "c3a6d1ac-70a9-41ba-b6d0-dc9b93d294f0",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "serviceIds": [
+        "servicio-1",
+        "servicio-14"
+      ],
+      "createdAt": "2026-10-12T15:27:04.589Z",
+      "shareToken": "42b1a35291ac3bfe0d4a0bc4341dd01ac7a0d4c7de853e75"
+    },
+    {
+      "name": "Interesante",
+      "description": "",
+      "id": "375643cb-c9e9-4478-a86c-39d1daa96a92",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "serviceIds": [
+        "servicio-8",
+        "servicio-14"
+      ],
+      "createdAt": "2026-10-12T15:27:27.188Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "87f4138f-3afe-4811-b245-335ddd6a21bd",
+      "userId": "pro-1",
+      "title": "Nuevo mensaje de Guillermo",
+      "url": "/mensajes/3def165c-58ee-4b48-b17e-f6a5948a9df4",
+      "read": false,
+      "createdAt": "2026-10-12T16:49:58.750Z"
+    },
+    {
+      "id": "5bea5cb9-ef90-424c-a9e1-2842fdb60580",
+      "userId": "pro-1",
+      "title": "Nuevo mensaje de Guillermo",
+      "url": "/mensajes/3def165c-58ee-4b48-b17e-f6a5948a9df4",
+      "read": false,
+      "createdAt": "2026-10-12T16:51:01.090Z"
+    },
+    {
+      "id": "e9c4c7cb-189b-4283-b13a-787942a529ec",
+      "userId": "pro-1",
+      "title": "Nuevo mensaje de Guillermo",
+      "url": "/mensajes/3def165c-58ee-4b48-b17e-f6a5948a9df4",
+      "read": false,
+      "createdAt": "2026-10-12T16:52:58.228Z"
+    },
+    {
+      "id": "daacf2ec-b0e1-430c-b646-2be3c0502470",
+      "userId": "pro-1",
+      "title": "Diseño de página web",
+      "url": "/mensajes/3def165c-58ee-4b48-b17e-f6a5948a9df4",
+      "read": false,
+      "createdAt": "2026-10-12T16:53:38.741Z"
+    },
+    {
+      "id": "0773b7de-e5a7-4509-a705-c287081d66f4",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "title": "Contratación confirmada",
+      "url": "/mensajes/66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "read": false,
+      "createdAt": "2026-10-12T17:03:31.295Z"
+    },
+    {
+      "id": "ccbfcd2a-8f2e-46a7-8f84-977441de5441",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "title": "Tienes un nuevo pedido",
+      "url": "/pedidos/c21cabc7-b603-4d92-af7e-0645c65909fe",
+      "read": false,
+      "createdAt": "2026-10-12T17:03:31.295Z"
+    },
+    {
+      "id": "ebedf9b4-c46f-4212-93e8-69b4bb895b89",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "title": "Nuevo mensaje de José",
+      "url": "/mensajes/66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "read": true,
+      "createdAt": "2026-10-12T17:04:58.627Z"
+    },
+    {
+      "id": "182135c7-e916-4b6a-9b0c-d5da4364c477",
+      "userId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "title": "Nuevo mensaje de Guillermo",
+      "url": "/mensajes/66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "read": true,
+      "createdAt": "2026-10-12T17:06:53.714Z"
+    },
+    {
+      "id": "2f2fd00b-c761-4a00-995a-8962d49b276a",
+      "userId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "title": "Nuevo mensaje de Guillermo",
+      "url": "/mensajes/66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "read": true,
+      "createdAt": "2026-10-12T17:07:38.359Z"
+    },
+    {
+      "id": "85af3cc7-c9fb-49e2-95b9-9b5a194ac032",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "title": "Diseñaré tu página web con CRO y SEO · Premium\nQuiero la mejor landing page que puedas hacer para vender un lapicero.",
+      "url": "/mensajes/66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "read": false,
+      "createdAt": "2026-10-12T17:13:08.766Z"
+    },
+    {
+      "id": "c8ff6e40-d800-4882-8332-7ce02922fdd5",
+      "userId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "title": "Diseño de página web premium",
+      "url": "/mensajes/66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "read": false,
+      "createdAt": "2026-10-12T17:20:49.425Z"
+    },
+    {
+      "id": "0b8a1730-9271-440d-aaf4-329fee03e59e",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "title": "Contratación confirmada",
+      "url": "/mensajes/66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "read": false,
+      "createdAt": "2026-10-12T17:24:34.248Z"
+    },
+    {
+      "id": "d031d500-6db9-4b21-8cb1-0963650e3974",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "title": "Tienes un nuevo pedido",
+      "url": "/pedidos/e2dbcd41-e1f1-4523-ba0f-4672cddacd3f",
+      "read": false,
+      "createdAt": "2026-10-12T17:24:34.248Z"
+    },
+    {
+      "id": "54f904a5-8183-4474-927d-37f42c2fb23d",
+      "userId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "title": "Trabajo iniciado",
+      "url": "/mensajes/66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "read": false,
+      "createdAt": "2026-10-12T17:28:24.059Z"
+    },
+    {
+      "id": "50ec99e5-c5f0-4eab-99e0-962834d0051f",
+      "userId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "title": "Trabajo iniciado",
+      "url": "/pedidos/e2dbcd41-e1f1-4523-ba0f-4672cddacd3f",
+      "read": false,
+      "createdAt": "2026-10-12T17:28:24.059Z"
+    },
+    {
+      "id": "44b4814e-e0b8-431e-b613-e48fc91c426b",
+      "userId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "title": "Entrega pendiente de confirmación",
+      "url": "/mensajes/66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "read": false,
+      "createdAt": "2026-10-12T17:28:57.323Z"
+    },
+    {
+      "id": "097b49fe-6b66-492a-8d37-81b92b53ff14",
+      "userId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "title": "Entrega pendiente de confirmación",
+      "url": "/pedidos/e2dbcd41-e1f1-4523-ba0f-4672cddacd3f",
+      "read": false,
+      "createdAt": "2026-10-12T17:28:57.323Z"
+    },
+    {
+      "id": "66535157-3c42-4253-81b9-f52aef5e15a5",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "title": "Ajuste solicitado",
+      "url": "/mensajes/66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "read": true,
+      "createdAt": "2026-10-12T17:30:04.494Z"
+    },
+    {
+      "id": "79a4a380-351c-4ed1-9a93-ba0fa1a36260",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "title": "Ajuste solicitado",
+      "url": "/pedidos/e2dbcd41-e1f1-4523-ba0f-4672cddacd3f",
+      "read": false,
+      "createdAt": "2026-10-12T17:30:04.494Z"
+    },
+    {
+      "id": "37798dd6-7352-46e5-8872-8835daa5ef24",
+      "userId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "title": "Entrega pendiente de confirmación",
+      "url": "/mensajes/66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "read": false,
+      "createdAt": "2026-10-12T17:30:52.592Z"
+    },
+    {
+      "id": "9e25383c-0ad0-4ea6-9483-723f053b9b55",
+      "userId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "title": "Entrega pendiente de confirmación",
+      "url": "/pedidos/e2dbcd41-e1f1-4523-ba0f-4672cddacd3f",
+      "read": false,
+      "createdAt": "2026-10-12T17:30:52.592Z"
+    },
+    {
+      "id": "f23fd5a1-b3b4-458c-86bd-d32370dd40c5",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "title": "Pedido completado",
+      "url": "/mensajes/66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "read": false,
+      "createdAt": "2026-10-12T17:31:00.020Z"
+    },
+    {
+      "id": "4e5de74f-68e4-4690-a6c5-bc046d3834ef",
+      "userId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "title": "Pedido completado",
+      "url": "/pedidos/e2dbcd41-e1f1-4523-ba0f-4672cddacd3f",
+      "read": false,
+      "createdAt": "2026-10-12T17:31:00.020Z"
+    }
+  ],
+  "files": [
+    {
+      "id": "54fe1c1b-a66c-48d5-b72b-038b58f7a323",
+      "ownerId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "key": "54fe1c1b-a66c-48d5-b72b-038b58f7a323.jpg",
+      "mime": "image/jpeg",
+      "size": 38222,
+      "visibility": "public",
+      "createdAt": "2026-10-12T15:16:21.800Z",
+      "url": "/api/files/54fe1c1b-a66c-48d5-b72b-038b58f7a323/content"
+    },
+    {
+      "id": "da65c59a-d999-4920-a5b0-9aecbe0d48ba",
+      "ownerId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "key": "da65c59a-d999-4920-a5b0-9aecbe0d48ba.jpg",
+      "mime": "image/jpeg",
+      "size": 144229,
+      "visibility": "public",
+      "createdAt": "2026-10-12T16:25:29.501Z",
+      "url": "/api/files/da65c59a-d999-4920-a5b0-9aecbe0d48ba/content"
+    },
+    {
+      "id": "4790f889-9aa4-402c-989f-e4d82610a5af",
+      "ownerId": "7e5a3845-2f0b-4067-b9ed-70b5fa8ee04e",
+      "key": "4790f889-9aa4-402c-989f-e4d82610a5af.jpg",
+      "mime": "image/jpeg",
+      "size": 118841,
+      "visibility": "private",
+      "conversationId": "3def165c-58ee-4b48-b17e-f6a5948a9df4",
+      "createdAt": "2026-10-12T16:50:57.553Z",
+      "url": "/api/files/4790f889-9aa4-402c-989f-e4d82610a5af/content"
+    },
+    {
+      "id": "1931ad15-5122-479d-8c16-7f8ef889226c",
+      "ownerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "key": "1931ad15-5122-479d-8c16-7f8ef889226c.jpg",
+      "mime": "image/jpeg",
+      "size": 206234,
+      "visibility": "private",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "createdAt": "2026-10-12T17:04:56.019Z",
+      "url": "/api/files/1931ad15-5122-479d-8c16-7f8ef889226c/content"
+    },
+    {
+      "id": "c58eaf07-ded5-48d5-aa5c-cf0fa1fc4c3a",
+      "ownerId": "1b5f06be-373b-416c-afad-89f072a46211",
+      "key": "c58eaf07-ded5-48d5-aa5c-cf0fa1fc4c3a.webp",
+      "mime": "image/webp",
+      "size": 13992,
+      "visibility": "private",
+      "conversationId": "66705236-ecd4-4326-ac94-8f2d47fa598a",
+      "createdAt": "2026-10-12T17:13:02.653Z",
+      "url": "/api/files/c58eaf07-ded5-48d5-aa5c-cf0fa1fc4c3a/content"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+/* Refinements verified against the rendered screens, including mobile ordering. */
+dialog.compact-popover {
+  margin: 88px max(24px, calc((100vw - 1280px) / 2)) auto auto;
+  width: 420px;
+  max-height: 72dvh;
+}
+dialog.compact-popover::backdrop {
+  background: transparent;
+}
+.hero-search .icon {
+  width: 51px;
+  height: 51px;
+}
+
+.header-search .icon-button {
+  width: 38px;
+  height: 38px;
+}
+@media (max-width: 600px) {
+  .hero-search .icon {
+    width: 40px;
+    height: 40px;
+  }
+  .hero-search .icon img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+  .service-detail-main > .detail-section,
+  .service-detail-main > .featured-review,
+  .service-detail-main > .chips {
+    order: 1;
+  }
+}
